@@ -105,7 +105,6 @@ The dataset contains supply chain operational data including orders, inventory l
 ## SQL Skills Demonstrated
 - Aggregations (SUM, AVG, COUNT)
 - Grouping and filtering (GROUP BY, HAVING)
-- Conditional logic (CASE statements)
 - Business-driven query design
 - Performance-focused data analysis
 
