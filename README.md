@@ -34,6 +34,7 @@ This project simulates a real-world business scenario where data-driven insights
 The dataset contains supply chain operational data including orders, inventory levels, suppliers, warehouses, and logistics costs across multiple regions and time periods.
 
 
+![Dataset Preview](dataset_preview.png)
 
 
 
