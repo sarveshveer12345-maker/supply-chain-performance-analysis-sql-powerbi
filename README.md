@@ -120,17 +120,117 @@ DIVIDE(
 
 
 
-
 ---
 
 ## Dashboard Preview
 
 ![Business Performance Dashboard Overview](Business_Performance_dashboard_overview.png)
 
+
+## Business Performance Overview
+
+## Key Performance Indicators
+
+- Total revenue - 70.72M
+- Total units sold - 635K
+- Orders fulfilled - 831
+- Orders cancelled - 113
+- Orders pending - 244
+
+
+## Dashboard Features
+
+- High-level KPI summary (Revenue, Units Sold, Orders) 
+- Revenue trend analysis 
+- Regional performance comparison 
+- Category-wise revenue contribution
+- Revenue Contribution by warehouse
+- Interactive date filter
+
+
+## Business Questions
+
+- What is the overall business performance? 
+- How has revenue changed over time? 
+- Which regions contribute the most to revenue? 
+- Which product categories drive the most revenue?
+- Which warehouse contribute the most to revenue?
+
+
+## Key Insights 
+
+- ~70% of orders are fulfilled, but ~30% (pending + canceled) indicates operational gaps.
+- Revenue peaked in 2022–2023, indicating strong demand growth, followed by fluctuations. 
+- North and West regions are the top contributors (~20.2M & 19M each), showing strong regional dominance.  
+- Revenue is evenly distributed across categories, but Electronics slightly leads. 
+- Warehouse 1 is the top contributor with 25.11M, which is 35.5% of the total revenue.
+
+
+## Business Recommendations
+
+- Improve order fulfillment processes by reducing pending and canceled orders through better inventory planning and faster order processing.
+- Analyze the factors behind the post-2023 fluctuation and implement demand forecasting and seasonal planning to stabilize revenue growth.
+- Scale operations in North and West regions to maximize revenue, while investing in underperforming regions to balance geographic dependence.
+- Increase focus on high-performing categories like Electronics while optimizing pricing, promotion, or inventory strategies for lower-performing categories.
+- Leverage best practices from Warehouse 1 to improve performance across other warehouses and optimize inventory distribution to reduce dependency on a single warehouse.
+
 ---
 
 ![Supplier Analysis](supplier_analysis.png)
 
+
+## Supplier Performance
+
+## Key Performance Indicators
+
+- Avg order accuracy% - 91.33%
+- Avg lead time - 15.74 days
+- Accurate orders - 1096
+- Backorders - 116
+
+
+## Dashboard Features
+
+- Supplier-wise revenue contribution 
+- Transportation cost comparison 
+- Order fulfillment distribution 
+- Backorder analysis 
+- Order accuracy tracking
+  
+
+## Business Questions
+
+- Which suppliers contribute the most to revenue?
+- Which suppliers have the highest Transportation cost? 
+- What facor is causing delays or inefficiencies? 
+- How accurate are supplier deliveries? 
+- Which suppliers generate the most backorders?
+- Which suppliers contribute the most to successfully fulfilled orders?
+- Which suppliers maintain the highest order accuracy? 
+
+
+## Key Insights
+
+- Revenue contribution is evenly distributed across suppliers, reducing dependency risk. 
+- Supplier B,A and C incur the highest transportation costs, impacting profitability.  
+- Lead time (~15.74 days avg) suggests moderate delivery delays across suppliers. 
+- Order accuracy is relatively high (~91.33%), but still leaves room for improvement.
+- Supplier D has the highest backorders (~31.9%), indicating supply issues.
+- Supplier D has most fulfilled orders with (~27.21%), indicating dependency on specific suppliers for successful operations.
+- Supplier A maintain the highest order accuracy but certain suppliers show lower accuracy levels, indicating quality or process gaps in order handling
+
+
+## Business Recommendations
+
+- Maintain a diversified supplier base to reduce dependency risk, while identifying opportunities to scale high-performing suppliers for better revenue growth.
+- Re-evaluate contracts and logistics strategies for high-cost suppliers (Supplier B,A & C) to reduce transportation expenses and improve profitability.
+- Optimize supplier lead times by improving coordination, and prioritizing suppliers with faster delivery performance.
+- Implement standardized quality checks and monitoring systems to improve overall accuracy and minimize operational errors.
+- Address supply gaps with Supplier D by improving demand forecasting, inventory planning, or considering alternative suppliers to reduce backorders.
+- Reduce dependency on Supplier D by distributing order volumes more evenly across suppliers to minimize operational risk.
+- Leverage best practices from Supplier A and apply them across other suppliers to improve consistency and overall delivery quality.
+
+  
 ---
 
 ![Inventory Analysis](inventory_analysis.png)
