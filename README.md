@@ -1,12 +1,15 @@
 # Supply Chain Efficiency & Delivery Performance Analysis
 
+
 ## Project Overview
 
 This project analyzes end-to-end supply chain operations to identify inefficiencies in inventory management, supplier performance, and logistics cost.
 
 Using SQL for data analysis and Power BI for visualization, the project highlights key operational challenges and provides actionable insights to improve efficiency, reduce costs, and enhance overall supply chain performance.
 
+
 ---
+
 
 ## Business Context
 
@@ -16,7 +19,9 @@ Without proper analysis, these issues lead to increased operational costs, poor 
 
 This project simulates a real-world business scenario where data-driven insights are used to optimize supply chain performance.
 
+
 ---
+
 
 ## Business Objectives
 
@@ -27,7 +32,9 @@ This project simulates a real-world business scenario where data-driven insights
 - Detect operational bottlenecks such as backorders
 - Provide actionable recommendations to improve supply chain efficiency
 
+
 ---
+
 
 ## Dataset Preview
 
@@ -36,9 +43,6 @@ The dataset contains supply chain operational data including orders, inventory l
 
 ![Dataset Preview](dataset_preview.png)
 
-
-
----
 
 ## Dataset Information
 
@@ -61,6 +65,7 @@ The dataset contains supply chain operational data including orders, inventory l
 | warehouse_capacity   | Integer  | Maximum storage capacity of warehouse            | Helps assess utilization and capacity planning |
 
 ---
+
 
 ## DAX Calculations
 
@@ -113,10 +118,132 @@ DIVIDE(
 ) * 100
 
 
+
 ---
 
-## SQL Analysis
 
+
+# SQL Analysis
+
+
+
+**1. Overall Sales Performance**
+
+Business Question: What is the overall sales performance in terms of revenue and units sold?
+
+Key Insight: The business shows strong overall sales performance, indicating consistent demand across the supply chain.
+
+Business Recommendation: Focus on scaling high-performing segments to further increase revenue and market reach.
+
+
+
+**2. Region-wise Performance**
+
+Business Question: Which regions contribute the most to overall revenue?
+
+Key Insight: North region contribute a major share of total revenue, indicating geographical concentration of demand.
+
+Business Recommendation: Strengthen operations in high-performing regions while improving strategies in low-performing areas.
+
+
+
+**3. Category-wise Sales**
+
+Business Question: Which product categories drive sales?
+
+Key Insight: Revenue is relatively distributed across categories, with Electronis categories slightly outperforming others.
+
+Business Recommendation: Promote high-performing categories and optimize inventory for low-performing ones.
+
+
+
+**4. Supplier Performance (Sales Contribution)**
+
+Business Question: Which suppliers contribute the most to total sales?
+
+Key Insight: Supplier contribution is balanced, reducing dependency risk on a single supplier. Supplier B contribute the most to total sales
+
+Business Recommendation: Maintain strong relationships with top-performing suppliers while evaluating underperformers.
+
+
+
+**5. Order Status Distribution**
+
+Business Question: What is the distribution of orders status?
+
+Key Insight: While most orders are fulfilled, a noticeable portion remains pending or canceled, indicating process inefficiencies.
+
+Business Recommendation: Improve order processing and fulfillment systems to reduce pending and canceled orders.
+
+
+
+**6. Average Lead Time by Supplier**
+
+Business Question: Which suppliers have the highest delivery lead time?
+
+Key Insight: Supplier B have longer lead times, impacting overall delivery efficiency.
+
+Business Recommendation: Prioritize faster suppliers and work with slow suppliers to improve delivery timelines.
+
+
+
+**7. Inventory Utilization**
+
+Business Question: How efficiently are warehouses utilizing their capacity?
+
+Key Insight: Warehouse capacity is underutilized, indicating inefficient inventory distribution.
+
+Business Recommendation: Optimize inventory allocation to improve utilization and reduce storage costs.
+
+
+
+**8. Overstock vs Understock**
+
+Business Question: Which product categories are overstocked or understocked?
+
+Key Insight: Certain categories hold excess inventory, increasing holding costs and risk of inefficiency.
+
+Business Recommendation: Align inventory levels with demand to reduce overstocking and avoid stockouts.
+
+
+
+**9. Transportation Cost Analysis**
+
+Business Question: Which regions incur the highest transportation costs?
+
+Key Insight: Transportation costs are concentrated in certain regions, increasing overall operational expenses. North region incur the highest transportation costs
+
+Business Recommendation: Optimize logistics routes and distribution strategies to reduce transportation costs.
+
+
+
+**10. Cost Efficiency**
+
+Business Question: What is the cost efficiency across product categories?
+
+Key Insight: Some categories have higher cost per unit, affecting profitability.
+
+Business Recommendation: Focus on cost optimization and pricing strategies for high-cost categories.
+
+
+
+**11. Yearly Trend Analysis**
+
+Business Question: How does sales performance vary over time?
+
+Key Insight: Sales fluctuate across years, indicating seasonal demand patterns. 
+
+Business Recommendation: Plan inventory and logistics based on demand trends to improve efficiency.
+
+
+
+**12. Warehouse Performance**
+
+Business Question: Which warehouses perform best in terms of delivery efficiency?
+
+Key Insight: Warehouse performance is relatively balanced, but some variations exist in delivery efficiency.
+
+Business Recommendation: Standardize best practices across warehouses to improve overall efficiency.
 
 
 
@@ -128,6 +255,7 @@ DIVIDE(
 ![Business Performance Dashboard Overview](Business_Performance_dashboard_overview.png)
 
 
+
 ## Key Performance Indicators
 
 - Total revenue - 70.72M
@@ -135,6 +263,7 @@ DIVIDE(
 - Orders fulfilled - 831
 - Orders cancelled - 113
 - Orders pending - 244
+
 
 
 ## Dashboard Features
@@ -147,6 +276,7 @@ DIVIDE(
 - Interactive date filter
 
 
+
 ## Business Questions
 
 - What is the overall business performance? 
@@ -154,6 +284,7 @@ DIVIDE(
 - Which regions contribute the most to revenue? 
 - Which product categories drive the most revenue?
 - Which warehouse contribute the most to revenue?
+
 
 
 ## Key Insights 
@@ -165,6 +296,7 @@ DIVIDE(
 - Warehouse 1 is the top contributor with 25.11M, which is 35.5% of the total revenue.
 
 
+
 ## Business Recommendations
 
 - Improve order fulfillment processes by reducing pending and canceled orders through better inventory planning and faster order processing.
@@ -174,13 +306,16 @@ DIVIDE(
 - Leverage best practices from Warehouse 1 to improve performance across other warehouses and optimize inventory distribution to reduce dependency on a single warehouse.
 
 
+
 ---
 
 
 ## Supplier Performance
 
 
+
 ![Supplier Analysis](supplier_analysis.png)
+
 
 
 ## Key Performance Indicators
@@ -189,6 +324,7 @@ DIVIDE(
 - Avg lead time - 15.74 days
 - Accurate orders - 1096
 - Backorders - 116
+
 
 
 ## Dashboard Features
@@ -200,6 +336,7 @@ DIVIDE(
 - Order accuracy tracking
   
 
+
 ## Business Questions
 
 - Which suppliers contribute the most to revenue?
@@ -209,6 +346,7 @@ DIVIDE(
 - Which suppliers generate the most backorders?
 - Which suppliers contribute the most to successfully fulfilled orders?
 - Which suppliers maintain the highest order accuracy? 
+
 
 
 ## Key Insights
@@ -222,6 +360,7 @@ DIVIDE(
 - Supplier A maintain the highest order accuracy but certain suppliers show lower accuracy levels, indicating quality or process gaps in order handling
 
 
+
 ## Business Recommendations
 
 - Maintain a diversified supplier base to reduce dependency risk, while identifying opportunities to scale high-performing suppliers for better revenue growth.
@@ -232,13 +371,17 @@ DIVIDE(
 - Reduce dependency on Supplier D by distributing order volumes more evenly across suppliers to minimize operational risk.
 - Leverage best practices from Supplier A and apply them across other suppliers to improve consistency and overall delivery quality.
 
+
   
 ---
+
 
 ## Inventory Analysis
 
 
+
 ![Inventory Analysis](inventory_analysis.png)
+
 
 
 ## Key Performance Indicators
@@ -246,6 +389,7 @@ DIVIDE(
 - Total warehouse capacity - 8.91M
 - Total inventory level - 3.04M
 - Inventory Utilization% - 34.08%
+
 
 
 ## Dashboard Features
@@ -257,6 +401,7 @@ DIVIDE(
 - Year-wise filtering capability
 
 
+
 ## Business Questions
 
 - Are warehouses being efficiently utilized? 
@@ -264,6 +409,7 @@ DIVIDE(
 - Is there overstocking or underutilization? 
 - How is inventory distributed across suppliers? 
 - Which warehouses perform best operationally?
+
 
 
 ## Key Insights
@@ -275,6 +421,7 @@ DIVIDE(
 - Warehouse performance is evenly distributed across all 3 warehouses.
 
 
+
 ## Business Recommendations
 
 - Optimize inventory allocation across warehouses to improve utilization and reduce idle capacity, lowering storage and operational costs.
@@ -284,18 +431,24 @@ DIVIDE(
 - Standardize operational processes across all warehouses and introduce performance benchmarks to further improve efficiency and scalability.
 
 
+
 ---
+
+
 
 ## Logistics & Cost
 
 
+
 ![Logistics Analysis](logistics_analysis.png)
+
 
 
 ## Key Performance Indicator
 
 - Total transportation cost - 9.27M
    
+
 
 ## Dashboard Features
  
@@ -304,6 +457,7 @@ DIVIDE(
 - Supplier-wise logistics cost comparison 
 - Transportation cost distribution by Warehouse
 - Category-level transportation cost 
+
 
 
 ## Business Questions
@@ -315,6 +469,7 @@ DIVIDE(
 - Which product categories drive logistics costs?
 
 
+
 ## Key Insights
 
 - Transportation costs have increased from 2022, indicating rising logistics expenses and potential inefficiencies, and it also has impact on the revenue. 
@@ -322,6 +477,7 @@ DIVIDE(
 - Supplier B and A incur the highest logistics costs, making them the most expensive suppliers to operate with. 
 - Transportation costs are relatively evenly distributed across warehouses, with slight variations indicating minor efficiency differences.
 - Certain product categories (e.g., Electronics) drive higher transportation costs due to higher volume or delivery requirements. 
+
 
 
 ## Business Recommendations
@@ -332,26 +488,29 @@ DIVIDE(
 - Identify and replicate best practices from more efficient warehouses to minimize cost variations and improve overall logistics efficiency.
 - Optimize packaging, shipping methods, and inventory placement for high-cost categories to reduce transportation expenses.
 
+
   
 ---
 
 ## Tools Used
 
+- Excel – Data cleaning and preprocessing
 - SQL (MySQL) – Data extraction and analysis
 - Power BI – Data visualization and dashboard creation
-- Excel – Data cleaning and preprocessing
 
 ---
+
 
 ## Skills Demonstrated
 
 - Data cleaning and preprocessing
-- Data modeling and transformation
 - Business problem solving
 - Dashboard design and visualization
 - Insight generation and storytelling
 
+
 ---
+
 
 ## SQL Skills Demonstrated
 - Aggregations (SUM, AVG, COUNT)
@@ -359,45 +518,67 @@ DIVIDE(
 - Business-driven query design
 - Performance-focused data analysis
 
+
 ---
+
 
 ## Data Workflow
 
 1. Raw dataset collected and cleaned in Excel
 2. Data imported into SQL database
 3. SQL queries used to analyze business problems
-4. Processed data connected to Power BI
-5. Interactive dashboards created for visualization
-6. Insights and recommendations derived from analysis
+4. Interactive dashboards created for visualization
+5. Insights and recommendations derived from analysis
+
 
 ---
 
 ## Project Structure
 
-supply-chain-analysis/
+supply-chain-performance-analysis-sql-powerbi/
 │
 ├── dataset/
-│   └── supply_chain_inventory_dataset.xlsx
+│   └── supply_chain_dataset.xlsx
 │
 ├── sql/
-│   ├── schema.sql
 │   └── supply_chain_analysis_queries.sql
 │
 ├── powerbi/
 │   └── supply_chain_dashboard.pbix
 │
+├── images/
+│   ├── dataset_preview.png
+│   ├── business_performance_dashboard_overview.png
+│   ├── supplier_analysis.png
+│   ├── inventory_analysis.png
+│   └── logistics_analysis.png
+│
 └── README.md
 
+
 ---
+
 
 ## Repository Structure
 
-- dataset/ → Contains raw dataset used for analysis
-- sql/ → SQL schema and business analysis queries
-- powerbi/ → Power BI dashboard file
-- README.md → Project documentation
+**dataset** - supply_chain_dataset.xlsx  
+Contains cleaned dataset used for supply chain analysis  
+
+**sql** - supply_chain_analysis.sql  
+Includes SQL queries for data exploration, KPI calculations, and business analysis  
+
+**powerbi** - supply_chain_dashboard.pbix  
+Contains the Power BI dashboard file with all visualizations  
+
+**images** - dataset_preview.png, business_performance_dashboard_overview.png, supplier_analysis.png, inventory_analysis.png, logistics_analysis.png  
+Stores dataset preview and dashboard screenshots used in the README  
+
+**README.md**  
+Complete project documentation including business context, SQL insights, dashboards, and recommendations  
+
 
 ---
+
 
 ## How to Use
 
@@ -407,7 +588,9 @@ supply-chain-analysis/
 4. Open Power BI file to explore dashboards
 5. Interact with filters to analyze different scenarios
 
+
 ---
+
 
 ## Conclusion
 
@@ -417,7 +600,9 @@ By addressing these issues, businesses can improve operational efficiency, reduc
 
 This project demonstrates how data-driven decision-making can significantly optimize supply chain performance.
 
+
 ---
+
 
 Author
 
