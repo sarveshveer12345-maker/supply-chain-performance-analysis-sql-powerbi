@@ -85,6 +85,14 @@ The dataset contains supply chain operational data including orders, inventory l
 
 ---
 
+![Logistics Analysis](logistics_analysis.png)
+
+---
+
+![Supplier Analysis](supplier_analysis.png)
+
+---
+
 ## Tools Used
 
 - SQL (MySQL) – Data extraction and analysis
