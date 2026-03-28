@@ -252,7 +252,7 @@ Business Recommendation: Standardize best practices across warehouses to improve
 ## Business Performance Overview
 
 
-![Business Performance Dashboard Overview](Business_Performance_dashboard_overview.png)
+![Business Performance Dashboard Overview](business_performance_dashboard_overview.png)
 
 
 
