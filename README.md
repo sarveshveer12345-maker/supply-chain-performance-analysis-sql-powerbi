@@ -85,15 +85,15 @@ The dataset contains supply chain operational data including orders, inventory l
 
 ---
 
+![Supplier Analysis](supplier_analysis.png)
+
+---
+
 ![Inventory Analysis](inventory_analysis.png)
 
 ---
 
 ![Logistics Analysis](logistics_analysis.png)
-
----
-
-![Supplier Analysis](supplier_analysis.png)
 
 ---
 
