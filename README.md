@@ -258,11 +258,11 @@ Business Recommendation: Standardize best practices across warehouses to improve
 
 ## Key Performance Indicators
 
-- Total revenue - 70.72M
-- Total units sold - 635K
-- Orders fulfilled - 831
-- Orders cancelled - 113
-- Orders pending - 244
+- Total revenue - 71.24M
+- Total units sold - 641K
+- Orders fulfilled - 838
+- Orders cancelled - 114
+- Orders pending - 248
 
 
 
