@@ -135,7 +135,7 @@ Key Insight: The business shows strong overall sales performance, indicating con
 
 Business Recommendation: Focus on scaling high-performing segments to further increase revenue and market reach.
 
-
+---
 
 **2. Region-wise Performance**
 
@@ -145,7 +145,7 @@ Key Insight: North region contribute a major share of total revenue, indicating 
 
 Business Recommendation: Strengthen operations in high-performing regions while improving strategies in low-performing areas.
 
-
+---
 
 **3. Category-wise Sales**
 
@@ -155,7 +155,7 @@ Key Insight: Revenue is relatively distributed across categories, with Electroni
 
 Business Recommendation: Promote high-performing categories and optimize inventory for low-performing ones.
 
-
+---
 
 **4. Supplier Performance (Sales Contribution)**
 
@@ -165,7 +165,7 @@ Key Insight: Supplier contribution is balanced, reducing dependency risk on a si
 
 Business Recommendation: Maintain strong relationships with top-performing suppliers while evaluating underperformers.
 
-
+---
 
 **5. Order Status Distribution**
 
@@ -175,7 +175,7 @@ Key Insight: While most orders are fulfilled, a noticeable portion remains pendi
 
 Business Recommendation: Improve order processing and fulfillment systems to reduce pending and canceled orders.
 
-
+---
 
 **6. Average Lead Time by Supplier**
 
@@ -185,7 +185,7 @@ Key Insight: Supplier B have longer lead times, impacting overall delivery effic
 
 Business Recommendation: Prioritize faster suppliers and work with slow suppliers to improve delivery timelines.
 
-
+---
 
 **7. Inventory Utilization**
 
@@ -195,7 +195,7 @@ Key Insight: Warehouse capacity is underutilized, indicating inefficient invento
 
 Business Recommendation: Optimize inventory allocation to improve utilization and reduce storage costs.
 
-
+---
 
 **8. Overstock vs Understock**
 
@@ -205,7 +205,7 @@ Key Insight: Certain categories hold excess inventory, increasing holding costs 
 
 Business Recommendation: Align inventory levels with demand to reduce overstocking and avoid stockouts.
 
-
+---
 
 **9. Transportation Cost Analysis**
 
@@ -215,7 +215,7 @@ Key Insight: Transportation costs are concentrated in certain regions, increasin
 
 Business Recommendation: Optimize logistics routes and distribution strategies to reduce transportation costs.
 
-
+---
 
 **10. Cost Efficiency**
 
@@ -225,7 +225,7 @@ Key Insight: Some categories have higher cost per unit, affecting profitability.
 
 Business Recommendation: Focus on cost optimization and pricing strategies for high-cost categories.
 
-
+---
 
 **11. Yearly Trend Analysis**
 
@@ -235,7 +235,7 @@ Key Insight: Sales fluctuate across years, indicating seasonal demand patterns.
 
 Business Recommendation: Plan inventory and logistics based on demand trends to improve efficiency.
 
-
+---
 
 **12. Warehouse Performance**
 
