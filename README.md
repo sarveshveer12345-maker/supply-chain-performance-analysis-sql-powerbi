@@ -289,9 +289,9 @@ Business Recommendation: Standardize best practices across warehouses to improve
 
 ## Key Insights 
 
-- ~70% of orders are fulfilled, but ~30% (pending + canceled) indicates operational gaps.
+- 70% of orders are fulfilled, but 30% (pending + canceled) indicates operational gaps.
 - Revenue peaked in 2022–2023, indicating strong demand growth, followed by fluctuations. 
-- North and West regions are the top contributors (~20.2M & 19M each), showing strong regional dominance.  
+- North and West regions are the top contributors (20.2M & 19M each), showing strong regional dominance.  
 - Revenue is evenly distributed across categories, but Electronics slightly leads. 
 - Warehouse 1 is the top contributor with 25.11M, which is 35.5% of the total revenue.
 
@@ -352,11 +352,11 @@ Business Recommendation: Standardize best practices across warehouses to improve
 ## Key Insights
 
 - Revenue contribution is evenly distributed across suppliers, reducing dependency risk. 
-- Supplier B,A and C incur the highest transportation costs, impacting profitability.  
-- Lead time (~15.74 days avg) suggests moderate delivery delays across suppliers. 
-- Order accuracy is relatively high (~91.33%), but still leaves room for improvement.
-- Supplier D has the highest backorders (~31.9%), indicating supply issues.
-- Supplier D has most fulfilled orders with (~27.21%), indicating dependency on specific suppliers for successful operations.
+- Supplier B, A and C incur the highest transportation costs, impacting profitability.  
+- Lead time (15.74 days avg) suggests moderate delivery delays across suppliers. 
+- Order accuracy is relatively high (91.33%), but still leaves room for improvement.
+- Supplier D has the highest backorders (31.9%), indicating supply issues.
+- Supplier D has most fulfilled orders with (27.21%), indicating dependency on specific suppliers for successful operations.
 - Supplier A maintain the highest order accuracy but certain suppliers show lower accuracy levels, indicating quality or process gaps in order handling
 
 
@@ -364,7 +364,7 @@ Business Recommendation: Standardize best practices across warehouses to improve
 ## Business Recommendations
 
 - Maintain a diversified supplier base to reduce dependency risk, while identifying opportunities to scale high-performing suppliers for better revenue growth.
-- Re-evaluate contracts and logistics strategies for high-cost suppliers (Supplier B,A & C) to reduce transportation expenses and improve profitability.
+- Re-evaluate contracts and logistics strategies for high-cost suppliers (Supplier B, A & C) to reduce transportation expenses and improve profitability.
 - Optimize supplier lead times by improving coordination, and prioritizing suppliers with faster delivery performance.
 - Implement standardized quality checks and monitoring systems to improve overall accuracy and minimize operational errors.
 - Address supply gaps with Supplier D by improving demand forecasting, inventory planning, or considering alternative suppliers to reduce backorders.
@@ -414,7 +414,7 @@ Business Recommendation: Standardize best practices across warehouses to improve
 
 ## Key Insights
 
-- Total inventory (3.04M) vs capacity (8.91M) only ~34.08% utilization, indicating underutilization. 
+- Total inventory (3.04M) vs capacity (8.91M) only 34.08% utilization, indicating underutilization. 
 - North and West regions hold the highest inventory levels.
 - Significant unused capacity suggests inefficiency in inventory planning.
 - Inventory distribution across suppliers is relatively balanced. 
