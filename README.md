@@ -64,9 +64,53 @@ The dataset contains supply chain operational data including orders, inventory l
 
 ## DAX Calculations
 
+- Total Revenue = SUM(inventory_operations[Cost of Goods Sold (COGS)])
 
+- Total Units Sold = SUM(inventory_operations[units_sold])
 
+- Orders Fufilled = 
+CALCULATE(
+    COUNTROWS(inventory_operations),
+    inventory_operations[order_status] = "Fulfilled"
+)
 
+- Orders Canceled = 
+CALCULATE(
+    COUNTROWS(inventory_operations),
+    inventory_operations[order_status] = "canceled"
+)
+
+- Orders Pending = 
+CALCULATE(
+    COUNTROWS(inventory_operations),
+    inventory_operations[order_status] = "pending"
+)
+
+- Avg Order Accuracy % = 
+AVERAGEX(
+    inventory_operations,
+    IF(inventory_operations[order_accuracy] = TRUE(), 1, 0)
+)
+
+- Avg Lead Time = AVERAGE(inventory_operations[lead_time (days)])
+
+- Accurate Orders = 
+CALCULATE(
+    COUNTROWS(inventory_operations),
+    inventory_operations[order_accuracy] = TRUE()
+)
+
+- Backorders = 
+CALCULATE(
+    COUNTROWS(inventory_operations),
+    inventory_operations[backorder] = TRUE()
+)
+
+- Inventory Utilization % = 
+DIVIDE(
+    AVERAGE(inventory_operations[inventory_level]),
+    AVERAGE(inventory_operations[warehouse_capacity])
+) * 100
 
 
 ---
