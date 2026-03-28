@@ -70,3 +70,107 @@ The dataset contains supply chain operational data including orders, inventory l
 
 ---
 
+## SQL Analysis
+
+
+
+
+
+---
+
+## Dashboard Preview
+
+
+
+---
+
+## Tools Used
+
+- SQL (MySQL) – Data extraction and analysis
+- Power BI – Data visualization and dashboard creation
+- Excel – Data cleaning and preprocessing
+
+---
+
+## Skills Demonstrated
+
+- Data cleaning and preprocessing
+- Data modeling and transformation
+- Business problem solving
+- Dashboard design and visualization
+- Insight generation and storytelling
+
+---
+
+## SQL Skills Demonstrated
+- Aggregations (SUM, AVG, COUNT)
+- Grouping and filtering (GROUP BY, HAVING)
+- Conditional logic (CASE statements)
+- Business-driven query design
+- Performance-focused data analysis
+
+---
+
+## Data Workflow
+
+1. Raw dataset collected and cleaned in Excel
+2. Data imported into SQL database
+3. SQL queries used to analyze business problems
+4. Processed data connected to Power BI
+5. Interactive dashboards created for visualization
+6. Insights and recommendations derived from analysis
+
+---
+
+## Project Structure
+
+supply-chain-analysis/
+│
+├── dataset/
+│   └── supply_chain_inventory_dataset.xlsx
+│
+├── sql/
+│   ├── schema.sql
+│   └── supply_chain_analysis_queries.sql
+│
+├── powerbi/
+│   └── supply_chain_dashboard.pbix
+│
+└── README.md
+
+---
+
+## Repository Structure
+
+- dataset/ → Contains raw dataset used for analysis
+- sql/ → SQL schema and business analysis queries
+- powerbi/ → Power BI dashboard file
+- README.md → Project documentation
+
+---
+
+## How to Use
+
+1. Download the dataset from the /dataset folder
+2. Import data into your SQL environment
+3. Run queries from /sql/supply_chain_analysis_queries.sql
+4. Open Power BI file to explore dashboards
+5. Interact with filters to analyze different scenarios
+
+---
+
+## Conclusion
+
+The analysis highlights key inefficiencies in supply chain operations, including supplier delays, underutilized warehouse capacity, and high transportation costs in certain regions.
+
+By addressing these issues, businesses can improve operational efficiency, reduce costs, and enhance customer satisfaction.
+
+This project demonstrates how data-driven decision-making can significantly optimize supply chain performance.
+
+---
+
+Author
+
+Sarvesh Vernekar
+
+Aspiring Data Analyst focused on transforming business data into actionable insights through analytics, visualization, and data-driven decision making.
