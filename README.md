@@ -81,7 +81,7 @@ The dataset contains supply chain operational data including orders, inventory l
 
 ## Dashboard Preview
 
-![Business Performance Dashboard](Business Performance dashboard_overview.png)
+![Business Performance Dashboard](BusinessPerformancedashboard_overview.png)
 
 ---
 
