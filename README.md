@@ -122,12 +122,11 @@ DIVIDE(
 
 ---
 
-## Dashboard Preview
+## Business Performance Overview
+
 
 ![Business Performance Dashboard Overview](Business_Performance_dashboard_overview.png)
 
-
-## Business Performance Overview
 
 ## Key Performance Indicators
 
@@ -174,12 +173,15 @@ DIVIDE(
 - Increase focus on high-performing categories like Electronics while optimizing pricing, promotion, or inventory strategies for lower-performing categories.
 - Leverage best practices from Warehouse 1 to improve performance across other warehouses and optimize inventory distribution to reduce dependency on a single warehouse.
 
----
 
-![Supplier Analysis](supplier_analysis.png)
+---
 
 
 ## Supplier Performance
+
+
+![Supplier Analysis](supplier_analysis.png)
+
 
 ## Key Performance Indicators
 
@@ -233,12 +235,104 @@ DIVIDE(
   
 ---
 
+## Inventory Analysis
+
+
 ![Inventory Analysis](inventory_analysis.png)
+
+
+## Key Performance Indicators
+
+- Total warehouse capacity - 8.91M
+- Total inventory level - 3.04M
+- Inventory Utilization% - 34.08%
+
+
+## Dashboard Features
+
+- Inventory levels across regions
+- Inventory levels across suppliers
+- Warehouse capacity comparison 
+- Warehouse-level order fulfillment 
+- Year-wise filtering capability
+
+
+## Business Questions
+
+- Are warehouses being efficiently utilized? 
+- Which regions hold the most inventory? 
+- Is there overstocking or underutilization? 
+- How is inventory distributed across suppliers? 
+- Which warehouses perform best operationally?
+
+
+## Key Insights
+
+- Total inventory (3.04M) vs capacity (8.91M) only ~34.08% utilization, indicating underutilization. 
+- North and West regions hold the highest inventory levels.
+- Significant unused capacity suggests inefficiency in inventory planning.
+- Inventory distribution across suppliers is relatively balanced. 
+- Warehouse performance is evenly distributed across all 3 warehouses.
+
+
+## Business Recommendations
+
+- Optimize inventory allocation across warehouses to improve utilization and reduce idle capacity, lowering storage and operational costs.
+- Rebalance inventory from high-stock regions (North & West) to lower-demand regions to improve distribution efficiency and reduce holding costs.
+- Implement demand-driven inventory planning and forecasting models to avoid excess stock and improve overall inventory efficiency.
+- Maintain balanced supplier distribution while continuously monitoring supplier performance to prevent future supply concentration risks.
+- Standardize operational processes across all warehouses and introduce performance benchmarks to further improve efficiency and scalability.
+
 
 ---
 
+## Logistics & Cost
+
+
 ![Logistics Analysis](logistics_analysis.png)
 
+
+## Key Performance Indicator
+
+- Total transportation cost - 9.27M
+   
+
+## Dashboard Features
+ 
+- Transportation cost trend 
+- Region-wise logistics cost analysis 
+- Supplier-wise logistics cost comparison 
+- Transportation cost distribution by Warehouse
+- Category-level transportation cost 
+
+
+## Business Questions
+
+- How has transportation cost changed over time? 
+- How are transportation costs distributed across regions? 
+- Which suppliers incur the highest logistics costs? 
+- Which warehouses are cost-intensive? 
+- Which product categories drive logistics costs?
+
+
+## Key Insights
+
+- Transportation costs have increased from 2022, indicating rising logistics expenses and potential inefficiencies, and it also has impact on the revenue. 
+- A few regions (North and West) contribute the majority of transportation costs, aligning with high sales activity.
+- Supplier B and A incur the highest logistics costs, making them the most expensive suppliers to operate with. 
+- Transportation costs are relatively evenly distributed across warehouses, with slight variations indicating minor efficiency differences.
+- Certain product categories (e.g., Electronics) drive higher transportation costs due to higher volume or delivery requirements. 
+
+
+## Business Recommendations
+
+- Implement cost control strategies such as route optimization and bulk shipping to manage rising transportation expenses.
+- Optimize regional distribution networks by relocating inventory closer to demand centers to reduce shipping distance and cost.
+- Re-negotiate contracts or evaluate alternative suppliers to reduce high logistics costs associated with Supplier B and A.
+- Identify and replicate best practices from more efficient warehouses to minimize cost variations and improve overall logistics efficiency.
+- Optimize packaging, shipping methods, and inventory placement for high-cost categories to reduce transportation expenses.
+
+  
 ---
 
 ## Tools Used
