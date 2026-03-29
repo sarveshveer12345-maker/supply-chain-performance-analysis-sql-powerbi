@@ -375,7 +375,7 @@ Business Recommendation: Standardize best practices across warehouses to improve
 
 - 70% of orders are fulfilled, but 30% (pending + canceled) indicates operational gaps.
 - Revenue peaked in 2022–2023, indicating strong demand growth, followed by fluctuations. 
-- North and West regions are the top contributors (20.2M & 19M each), showing strong regional dominance.  
+- North and West regions are the top contributors (20.2M & 19.1M each), showing strong regional dominance.  
 - Revenue is evenly distributed across categories, but Electronics slightly leads. 
 - Warehouse 1 is the top contributor with 25.11M, which is 35.5% of the total revenue.
 
@@ -424,7 +424,7 @@ Business Recommendation: Standardize best practices across warehouses to improve
 ## Business Questions
 
 - Which suppliers contribute the most to revenue?
-- Which suppliers have the highest Transportation cost? 
+- Which suppliers have the maximum Transportation cost? 
 - What facor is causing delays or inefficiencies? 
 - How accurate are supplier deliveries? 
 - Which suppliers generate the most backorders?
@@ -436,7 +436,7 @@ Business Recommendation: Standardize best practices across warehouses to improve
 ## Key Insights
 
 - Revenue contribution is evenly distributed across suppliers, reducing dependency risk. 
-- Supplier B, A and C incur the highest transportation costs, impacting profitability.  
+- Supplier B, A and C incur the maximum transportation costs, impacting profitability.  
 - Lead time (15.74 days avg) suggests moderate delivery delays across suppliers. 
 - Order accuracy is relatively high (91.33%), but still leaves room for improvement.
 - Supplier D has the highest backorders (31.9%), indicating supply issues.
@@ -598,7 +598,7 @@ Business Recommendation: Standardize best practices across warehouses to improve
 
 ## SQL Skills Demonstrated
 - Aggregations (SUM, AVG, COUNT)
-- Grouping and filtering (GROUP BY, HAVING)
+- Grouping and filtering (GROUP BY, ORDER BY)
 - Business-driven query design
 - Performance-focused data analysis
 
