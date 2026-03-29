@@ -131,6 +131,9 @@ DIVIDE(
 
 Business Question: What is the overall sales performance in terms of revenue and units sold?
 
+Total units sold: 640671
+Total revenue generated: 71244576.02092892
+
 Key Insight: The business shows strong overall sales performance, indicating consistent demand across the supply chain.
 
 Business Recommendation: Focus on scaling high-performing segments to further increase revenue and market reach.
@@ -140,6 +143,9 @@ Business Recommendation: Focus on scaling high-performing segments to further in
 **2. Region-wise Performance**
 
 Business Question: Which regions contribute the most to overall revenue?
+
+Region  | Tottal units | Revenue
+North   | 170175       | 20347653.809619017
 
 Key Insight: North region contribute a major share of total revenue, indicating geographical concentration of demand.
 
