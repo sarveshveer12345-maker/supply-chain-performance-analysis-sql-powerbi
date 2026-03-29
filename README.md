@@ -131,8 +131,9 @@ DIVIDE(
 
 Business Question: What is the overall sales performance in terms of revenue and units sold?
 
-Total units sold: 640671
-Total revenue generated: 71244576.02092892
+**Total units sold: 640671**
+
+**Total revenue generated: 71244576.02092892**
 
 Key Insight: The business shows strong overall sales performance, indicating consistent demand across the supply chain.
 
@@ -144,10 +145,13 @@ Business Recommendation: Focus on scaling high-performing segments to further in
 
 Business Question: Which regions contribute the most to overall revenue?
 
-Region  | Tottal units | Revenue
-North   | 170175       | 20347653.809619017
+**Region : North**
 
-Key Insight: North region contribute a major share of total revenue, indicating geographical concentration of demand.
+**Tottal units : 170175**
+
+**Revenue : 20347653.809619017**
+
+Key Insight: **North** region contribute a major share of total revenue, indicating geographical concentration of demand.
 
 Business Recommendation: Strengthen operations in high-performing regions while improving strategies in low-performing areas.
 
@@ -155,9 +159,15 @@ Business Recommendation: Strengthen operations in high-performing regions while 
 
 **3. Category-wise Sales**
 
-Business Question: Which product categories drive sales?
+Business Question: Which product categories drive most sales?
 
-Key Insight: Revenue is relatively distributed across categories, with Electronis categories slightly outperforming others.
+**Category : Electronics**
+
+**Units Sold : 168532**
+
+**Revenue : 19207238.505421996**
+
+Key Insight: Revenue is relatively distributed across categories, with **Electronis** categories slightly outperforming others.
 
 Business Recommendation: Promote high-performing categories and optimize inventory for low-performing ones.
 
@@ -166,6 +176,12 @@ Business Recommendation: Promote high-performing categories and optimize invento
 **4. Supplier Performance (Sales Contribution)**
 
 Business Question: Which suppliers contribute the most to total sales?
+
+**Supplier : Supplier B**
+
+**Total units : 163023**
+
+**Revenue: 18637446.131990995**
 
 Key Insight: Supplier contribution is balanced, reducing dependency risk on a single supplier. Supplier B contribute the most to total sales
 
@@ -177,6 +193,12 @@ Business Recommendation: Maintain strong relationships with top-performing suppl
 
 Business Question: What is the distribution of orders status?
 
+**Fulfilled : 838**
+
+**Canceled : 114**
+
+**Pending : 248**
+
 Key Insight: While most orders are fulfilled, a noticeable portion remains pending or canceled, indicating process inefficiencies.
 
 Business Recommendation: Improve order processing and fulfillment systems to reduce pending and canceled orders.
@@ -186,6 +208,10 @@ Business Recommendation: Improve order processing and fulfillment systems to red
 **6. Average Lead Time by Supplier**
 
 Business Question: Which suppliers have the highest delivery lead time?
+
+**Supplier : Supplier B**
+
+**Avg Lead Time : 16.1710**
 
 Key Insight: Supplier B have longer lead times, impacting overall delivery efficiency.
 
@@ -197,6 +223,34 @@ Business Recommendation: Prioritize faster suppliers and work with slow supplier
 
 Business Question: How efficiently are warehouses utilizing their capacity?
 
+**Warehouse 1**	
+
+**Avg Inventory level : 2498.7221**	
+
+**Capacity : 7403.5931**	
+
+**Utilization % : 33.75012736**
+
+
+
+**Warehouse 2**	
+
+**Avg Inventory level : 2614.6142**	
+
+**Capacity : 7447.2310**
+
+**Utilization % : 35.10854203**
+
+
+
+**Warehouse 3**	
+
+**Avg Inventory level : 2479.9628**	
+
+**Capacity : 7427.1489**	
+
+**Utilization % : 33.39050850**
+
 Key Insight: Warehouse capacity is underutilized, indicating inefficient inventory distribution.
 
 Business Recommendation: Optimize inventory allocation to improve utilization and reduce storage costs.
@@ -206,6 +260,14 @@ Business Recommendation: Optimize inventory allocation to improve utilization an
 **8. Overstock vs Understock**
 
 Business Question: Which product categories are overstocked or understocked?
+
+**Clothing, Avg stock : 2639.4309**
+
+**Electronics, Avg stock : 2550.7229**
+
+**Accessories, Avg stock : 2532.9628**
+
+**Furniture, Avg stock : 2396.7680**
 
 Key Insight: Certain categories hold excess inventory, increasing holding costs and risk of inefficiency.
 
@@ -217,6 +279,8 @@ Business Recommendation: Align inventory levels with demand to reduce overstocki
 
 Business Question: Which regions incur the highest transportation costs?
 
+**North : 2498742.9209636007**
+
 Key Insight: Transportation costs are concentrated in certain regions, increasing overall operational expenses. North region incur the highest transportation costs
 
 Business Recommendation: Optimize logistics routes and distribution strategies to reduce transportation costs.
@@ -226,6 +290,14 @@ Business Recommendation: Optimize logistics routes and distribution strategies t
 **10. Cost Efficiency**
 
 Business Question: What is the cost efficiency across product categories?
+
+**Accessories, Cost per unit : 111.59792585173629**
+
+**Furniture, Cost per unit : 107.710670931694**
+
+**Electronics, Cost per unit : 113.96790227032253**
+
+**Clothing, Cost per unit : 111.41611899588482**
 
 Key Insight: Some categories have higher cost per unit, affecting profitability.
 
@@ -246,6 +318,12 @@ Business Recommendation: Plan inventory and logistics based on demand trends to 
 **12. Warehouse Performance**
 
 Business Question: Which warehouses perform best in terms of delivery efficiency?
+
+**Warehouse 1, Total Units : 222346, Avg Delivery time : 16.1663**
+
+**Warehouse 2, Total Units : 205064, Avg Delivery time :	15.4848** 
+
+**Warehouse 3, Total Units : 213261, Avg Delivery time :	15.5608**
 
 Key Insight: Warehouse performance is relatively balanced, but some variations exist in delivery efficiency.
 
