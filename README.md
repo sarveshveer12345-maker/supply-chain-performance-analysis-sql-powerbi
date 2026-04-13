@@ -20,7 +20,7 @@ Key findings show:
 - Inventory utilization is only 34%, showing significant underutilization of warehouse capacity
 - Transportation cost of $9.27M is concentrated in key regions, impacting profitability
 
-These insights highlight opportunities to improve fulfillment efficiency, optimize inventory allocation, and reduce logistics costs.
+These insights provide a clear direction to improve fulfillment efficiency, optimize inventory utilization, and reduce logistics costs, ultimately enhancing overall supply chain performance and profitability.
 
 ---
 
@@ -150,7 +150,7 @@ Business Question: What is the overall sales performance in terms of revenue and
 
 Key Insight: Total revenue reached **$71.24M** with **641K** units sold, indicating strong demand across the supply chain, but with underlying operational inefficiencies affecting fulfillment and cost control.
 
-Business Recommendation: Focus on scaling high-performing segments to further increase revenue and market reach.
+Business Recommendation: Scale high-performing segments by increasing inventory allocation and aligning supply with demand patterns in top-performing categories and regions.
 
 ---
 
@@ -160,7 +160,7 @@ Business Question: Which regions contribute the most to overall revenue?
 
 - **Region : North**
 
-- **Tottal units : 170175**
+- **Total units : 170175**
 
 - **Revenue : 20347653.809619017**
 
@@ -196,7 +196,7 @@ Business Question: Which suppliers contribute the most to total sales?
 
 - **Revenue: 18637446.131990995**
 
-Key Insight: Supplier contribution is balanced, reducing dependency risk on a single supplier. Supplier B contribute the most to total sales
+Key Insight: Supplier contribution is balanced, reducing dependency risk on a single supplier. Supplier B contributes the most to total sales.
 
 Business Recommendation: Maintain strong relationships with top-performing suppliers while evaluating underperformers.
 
@@ -212,7 +212,7 @@ Business Question: What is the distribution of orders status?
 
 - **Pending : 248**
 
-Key Insight: While most orders are **fulfilled**, Out of total orders, 30% (pending + canceled) remain unfulfilled, indicating significant inefficiencies in order processing and fulfillment operations..
+Key Insight: While most orders are **fulfilled**, Out of total orders, 30% (pending + canceled) remain unfulfilled, indicating significant inefficiencies in order processing and fulfillment operations.
 
 Business Recommendation: Improve order processing and fulfillment systems to reduce pending and canceled orders.
 
@@ -226,7 +226,7 @@ Business Question: Which suppliers have the highest delivery lead time?
 
 - **Avg Lead Time : 16.1710**
 
-Key Insight: Supplier B have longer lead times, impacting overall delivery efficiency.
+Key Insight: Supplier B has longer lead times, impacting overall delivery efficiency.
 
 Business Recommendation: Prioritize faster suppliers and work with slow suppliers to improve delivery timelines.
 
@@ -268,27 +268,10 @@ Key Insight: Warehouse capacity is underutilized, indicating inefficient invento
 
 Business Recommendation: Optimize inventory allocation to improve utilization and reduce storage costs.
 
----
-
-**8. Overstock vs Understock**
-
-Business Question: Which product categories are overstocked or understocked?
-
-- **Clothing, Avg stock : 2639.4309**
-
-- **Electronics, Avg stock : 2550.7229**
-
-- **Accessories, Avg stock : 2532.9628**
-
-- **Furniture, Avg stock : 2396.7680**
-
-Key Insight: Certain categories hold excess inventory, increasing holding costs and risk of inefficiency.
-
-Business Recommendation: Align inventory levels with demand to reduce overstocking and avoid stockouts.
 
 ---
 
-**9. Transportation Cost Analysis**
+**8. Transportation Cost Analysis**
 
 Business Question: Which regions incur the highest transportation costs?
 
@@ -297,51 +280,6 @@ Business Question: Which regions incur the highest transportation costs?
 Key Insight: **North** region incurred $2.49M in transportation costs, indicating high logistics dependency and increased operational expenses in key demand regions.
 
 Business Recommendation: Optimize logistics routes and distribution strategies to reduce transportation costs.
-
----
-
-**10. Cost Efficiency**
-
-Business Question: What is the cost efficiency across product categories?
-
-- **Accessories, Cost per unit : 111.59792585173629**
-
-- **Furniture, Cost per unit : 107.710670931694**
-
-- **Electronics, Cost per unit : 113.96790227032253**
-
-- **Clothing, Cost per unit : 111.41611899588482**
-
-Key Insight: Some categories have higher cost per unit, affecting profitability.
-
-Business Recommendation: Focus on cost optimization and pricing strategies for high-cost categories.
-
----
-
-**11. Yearly Trend Analysis**
-
-Business Question: How does sales performance vary over time?
-
-Key Insight: Sales fluctuate across years, indicating seasonal demand patterns. 
-
-Business Recommendation: Plan inventory and logistics based on demand trends to improve efficiency.
-
----
-
-**12. Warehouse Performance**
-
-Business Question: Which warehouses perform best in terms of delivery efficiency?
-
-- **Warehouse 1, Total Units : 222346, Avg Delivery time : 16.1663**
-
-- **Warehouse 2, Total Units : 205064, Avg Delivery time :	15.4848** 
-
-- **Warehouse 3, Total Units : 213261, Avg Delivery time :	15.5608**
-
-Key Insight: Warehouse performance is relatively balanced, but some variations exist in delivery efficiency.
-
-Business Recommendation: Standardize best practices across warehouses to improve overall efficiency.
-
 
 
 ---
@@ -515,7 +453,7 @@ Business Recommendation: Standardize best practices across warehouses to improve
 - North and West regions hold the highest inventory levels, indicating potential imbalance in stock distribution.
 - Low utilization suggests inefficient inventory allocation and excess idle capacity.
 - Inventory distribution across suppliers is relatively balanced, reducing supplier dependency risk. 
-- Warehouse performance is consistent across all locations, but lacks optimization for maximum efficiency.
+- Warehouses performance is consistent across all locations, but lacks optimization for maximum efficiency.
 
 
 
@@ -590,10 +528,10 @@ Business Recommendation: Standardize best practices across warehouses to improve
 
 ## Business Impact
 
-- Identified 30% order drop-off, impacting customer experience and revenue realization
-- Highlighted low inventory utilization (34%), indicating inefficient capital usage
-- Revealed high logistics cost ($9.27M), affecting overall profitability
-- Identified supplier-level inefficiencies (lead time + backorders), impacting delivery performance
+- Identified 30% order drop-off, directly impacting revenue realization and customer satisfaction.
+- Highlighted low inventory utilization (34%), indicating inefficient capital allocation and excess storage cost.
+- Revealed high logistics cost ($9.27M), reducing overall profitability.
+- Identified supplier inefficiencies (lead time 15.7 days, high backorders), impacting delivery performance and reliability.
 
 ---
 
@@ -602,6 +540,16 @@ Business Recommendation: Standardize best practices across warehouses to improve
 The analysis reveals that while the supply chain generates strong revenue ($71.24M), operational inefficiencies across order fulfillment, inventory utilization, and logistics cost significantly impact performance.
 
 Addressing these gaps through better demand forecasting, supplier optimization, and logistics planning can improve efficiency, reduce costs, and enhance overall supply chain effectiveness.
+
+---
+
+## Next Steps / Future Analysis
+
+- Perform supplier-level profitability analysis to identify cost vs revenue contribution
+- Build demand forecasting models to improve inventory planning and reduce stock inefficiencies
+- Analyze customer delivery timelines to improve service-level performance
+- Conduct root cause analysis on order cancellations and backorders
+- Optimize warehouse allocation using demand clustering techniques
 
 ---
 
