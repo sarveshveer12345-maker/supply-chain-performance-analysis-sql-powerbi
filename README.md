@@ -10,6 +10,19 @@ Using SQL for data analysis and Power BI for visualization, the project highligh
 
 ---
 
+## Executive Summary
+
+This project analyzes supply chain operations with total revenue of $71.24M and 641K units sold to identify inefficiencies across suppliers, inventory, and logistics.
+
+Key findings show:
+
+- 30% of orders are not fulfilled (pending + canceled), indicating operational gaps
+- Inventory utilization is only 34%, showing significant underutilization of warehouse capacity
+- Transportation cost of $9.27M is concentrated in key regions, impacting profitability
+
+These insights highlight opportunities to improve fulfillment efficiency, optimize inventory allocation, and reduce logistics costs.
+
+---
 
 ## Business Context
 
@@ -17,7 +30,7 @@ In modern supply chain operations, businesses face challenges such as delivery d
 
 Without proper analysis, these issues lead to increased operational costs, poor customer satisfaction, and lost revenue opportunities.
 
-This project simulates a real-world business scenario where data-driven insights are used to optimize supply chain performance.
+This project analyzes supply chain operations to identify inefficiencies in inventory, supplier performance, and logistics cost.
 
 
 ---
@@ -48,21 +61,21 @@ The dataset contains supply chain operational data including orders, inventory l
 
 | Column Name           | Data Type | Description                                      | Business Relevance |
 |----------------------|----------|--------------------------------------------------|--------------------|
-| order_date           | Date     | Date when the order was placed                   | Used for trend analysis and time-based insights |
-| region               | String   | Geographic region of the order                   | Helps identify high-performing markets |
-| category             | String   | Product category                                | Used to analyze product-level performance |
+| order_date           | Date     | Date when the order was placed                   | Trend analysis and time-based insights |
+| region               | String   | Geographic region of the order                   | Identifies high-performing markets |
+| category             | String   | Product category                                 | Analyzes product-level performance |
 | supplier             | String   | Supplier fulfilling the order                    | Evaluates supplier performance and reliability |
-| warehouse            | String   | Warehouse handling the order                     | Helps assess warehouse efficiency |
+| warehouse            | String   | Warehouse handling the order                     | Assesses warehouse efficiency |
 | order_status         | String   | Status (Fulfilled, Pending, Canceled)            | Tracks fulfillment efficiency and operational gaps |
 | units_sold           | Integer  | Number of units sold                             | Measures demand and sales volume |
-| inventory_level      | Integer  | Current inventory level                          | Helps monitor stock availability |
+| inventory_level      | Integer  | Current inventory level                          | Monitors stock availability |
 | transportation_cost  | Decimal  | Cost incurred for logistics                      | Key metric for cost and profitability analysis |
 | order_accuracy       | Boolean  | Indicates whether the order was accurate         | Measures operational accuracy and service quality |
 | lead_time_days       | Integer  | Delivery lead time in days                       | Evaluates supplier and logistics efficiency |
 | backorder            | Boolean  | Indicates whether the order was backordered      | Tracks supply shortages and demand mismatch |
-| cogs                 | Decimal  | Cost of goods sold                              | Core metric for cost and profitability analysis |
-| avg_inventory        | Decimal  | Average inventory maintained                     | Used to evaluate inventory efficiency |
-| warehouse_capacity   | Integer  | Maximum storage capacity of warehouse            | Helps assess utilization and capacity planning |
+| cogs                 | Decimal  | Cost of goods sold                               | Core metric for cost and profitability analysis |
+| avg_inventory        | Decimal  | Average inventory maintained                     | Evaluates inventory efficiency |
+| warehouse_capacity   | Integer  | Maximum storage capacity of warehouse            | Assesses utilization and capacity planning |
 
 ---
 
@@ -135,7 +148,7 @@ Business Question: What is the overall sales performance in terms of revenue and
 
 - **Total revenue generated: 71244576.02092892**
 
-Key Insight: The business shows strong overall sales performance, indicating consistent demand across the supply chain.
+Key Insight: Total revenue reached **$71.24M** with **641K** units sold, indicating strong demand across the supply chain, but with underlying operational inefficiencies affecting fulfillment and cost control.
 
 Business Recommendation: Focus on scaling high-performing segments to further increase revenue and market reach.
 
@@ -151,7 +164,7 @@ Business Question: Which regions contribute the most to overall revenue?
 
 - **Revenue : 20347653.809619017**
 
-Key Insight: **North** region contribute a major share of total revenue, indicating geographical concentration of demand.
+Key Insight: **North** region generated $20.34M in revenue, indicating strong regional demand concentration and potential dependency on specific markets.
 
 Business Recommendation: Strengthen operations in high-performing regions while improving strategies in low-performing areas.
 
@@ -167,7 +180,7 @@ Business Question: Which product categories drive most sales?
 
 - **Revenue : 19207238.505421996**
 
-Key Insight: Revenue is relatively distributed across categories, with **Electronis** categories slightly outperforming others.
+Key Insight: Revenue is relatively distributed across categories, with **Electronics** generated $19.2M in revenue, slightly outperforming other categories, indicating it as a key revenue driver within the product portfolio.
 
 Business Recommendation: Promote high-performing categories and optimize inventory for low-performing ones.
 
@@ -199,7 +212,7 @@ Business Question: What is the distribution of orders status?
 
 - **Pending : 248**
 
-Key Insight: While most orders are fulfilled, a noticeable portion remains pending or canceled, indicating process inefficiencies.
+Key Insight: While most orders are **fulfilled**, Out of total orders, 30% (pending + canceled) remain unfulfilled, indicating significant inefficiencies in order processing and fulfillment operations..
 
 Business Recommendation: Improve order processing and fulfillment systems to reduce pending and canceled orders.
 
@@ -281,7 +294,7 @@ Business Question: Which regions incur the highest transportation costs?
 
 - **North : 2498742.9209636007**
 
-Key Insight: Transportation costs are concentrated in certain regions, increasing overall operational expenses. North region incur the highest transportation costs
+Key Insight: **North** region incurred $2.49M in transportation costs, indicating high logistics dependency and increased operational expenses in key demand regions.
 
 Business Recommendation: Optimize logistics routes and distribution strategies to reduce transportation costs.
 
@@ -373,21 +386,21 @@ Business Recommendation: Standardize best practices across warehouses to improve
 
 ## Key Insights 
 
-- 70% of orders are fulfilled, but 30% (pending + canceled) indicates operational gaps.
-- Revenue peaked in 2022–2023, indicating strong demand growth, followed by fluctuations. 
-- North and West regions are the top contributors (20.2M & 19.1M each), showing strong regional dominance.  
-- Revenue is evenly distributed across categories, but Electronics slightly leads. 
-- Warehouse 1 is the top contributor with 25.11M, which is 35.5% of the total revenue.
+- 70% of orders are fulfilled, but 30% of orders (pending + canceled) indicate significant inefficiencies in order fulfillment and operational processes.
+- Revenue peaked during 2022–2023, indicating strong demand growth, followed by fluctuations that suggest potential instability in demand or operational   execution.
+- North ($20.3M) and West ($19.1M) regions dominate revenue, indicating heavy geographic concentration and potential dependency risk.  
+- Electronics contributes the highest revenue ($19.2M), establishing it as a primary revenue driver within the product portfolio .
+- Warehouse 1 generates $25.1M (35.5%) of total revenue, indicating uneven distribution of operational load across warehouses.
 
 
 
 ## Business Recommendations
 
-- Improve order fulfillment processes by reducing pending and canceled orders through better inventory planning and faster order processing.
+- Improve order fulfillment by reducing pending and canceled orders through better inventory planning and faster processing workflows.
 - Analyze the factors behind the post-2023 fluctuation and implement demand forecasting and seasonal planning to stabilize revenue growth.
-- Scale operations in North and West regions to maximize revenue, while investing in underperforming regions to balance geographic dependence.
-- Increase focus on high-performing categories like Electronics while optimizing pricing, promotion, or inventory strategies for lower-performing categories.
-- Leverage best practices from Warehouse 1 to improve performance across other warehouses and optimize inventory distribution to reduce dependency on a single warehouse.
+- Reduce geographic dependency by scaling underperforming regions while maintaining strong performance in North and West.
+- Prioritize high-performing categories like Electronics through targeted inventory allocation and demand-based planning.
+- Rebalance warehouse operations by optimizing inventory distribution and reducing over-reliance on Warehouse 1.
 
 
 
@@ -435,12 +448,12 @@ Business Recommendation: Standardize best practices across warehouses to improve
 
 ## Key Insights
 
-- Revenue contribution is evenly distributed across suppliers, reducing dependency risk. 
-- Supplier B, A and C incur the maximum transportation costs, impacting profitability.  
-- Lead time (15.74 days avg) suggests moderate delivery delays across suppliers. 
-- Order accuracy is relatively high (91.33%), but still leaves room for improvement.
-- Supplier D has the highest backorders (31.9%), indicating supply issues.
-- Supplier D has most fulfilled orders with (27.21%), indicating dependency on specific suppliers for successful operations.
+- Revenue contribution is relatively balanced across suppliers, reducing over-dependency risk but limiting opportunities for strategic scaling.
+- Supplier B, A, and C incur the highest transportation costs, directly impacting profitability and operational efficiency.  
+- Average lead time is 15.74 days, indicating moderate delays that affect delivery performance and customer satisfaction 
+- Order accuracy stands at 91.33%, indicating strong performance but still leaving room for improvement in operational precision.
+- Supplier D accounts for 31.9% of backorders, highlighting supply-demand mismatch and reliability concerns.
+- Supplier D also contributes 27.21% of fulfilled orders, indicating high operational dependency despite inefficiencies.
 - Supplier A maintain the highest order accuracy but certain suppliers show lower accuracy levels, indicating quality or process gaps in order handling
 
 
@@ -452,7 +465,7 @@ Business Recommendation: Standardize best practices across warehouses to improve
 - Optimize supplier lead times by improving coordination, and prioritizing suppliers with faster delivery performance.
 - Implement standardized quality checks and monitoring systems to improve overall accuracy and minimize operational errors.
 - Address supply gaps with Supplier D by improving demand forecasting, inventory planning, or considering alternative suppliers to reduce backorders.
-- Reduce dependency on Supplier D by distributing order volumes more evenly across suppliers to minimize operational risk.
+- Reduce dependency risk by distributing order volume more evenly across suppliers.
 - Leverage best practices from Supplier A and apply them across other suppliers to improve consistency and overall delivery quality.
 
 
@@ -498,18 +511,18 @@ Business Recommendation: Standardize best practices across warehouses to improve
 
 ## Key Insights
 
-- Total inventory (3.04M) vs capacity (8.91M) only 34.08% utilization, indicating underutilization. 
-- North and West regions hold the highest inventory levels.
-- Significant unused capacity suggests inefficiency in inventory planning.
-- Inventory distribution across suppliers is relatively balanced. 
-- Warehouse performance is evenly distributed across all 3 warehouses.
+- Total inventory stands at 3.04M against capacity of 8.91M, resulting in only 34.08% utilization, indicating significant underutilization of warehouse capacity. 
+- North and West regions hold the highest inventory levels, indicating potential imbalance in stock distribution.
+- Low utilization suggests inefficient inventory allocation and excess idle capacity.
+- Inventory distribution across suppliers is relatively balanced, reducing supplier dependency risk. 
+- Warehouse performance is consistent across all locations, but lacks optimization for maximum efficiency.
 
 
 
 ## Business Recommendations
 
 - Optimize inventory allocation across warehouses to improve utilization and reduce idle capacity, lowering storage and operational costs.
-- Rebalance inventory from high-stock regions (North & West) to lower-demand regions to improve distribution efficiency and reduce holding costs.
+- Rebalance stock from high-inventory regions to lower-demand areas to improve distribution efficiency.
 - Implement demand-driven inventory planning and forecasting models to avoid excess stock and improve overall inventory efficiency.
 - Maintain balanced supplier distribution while continuously monitoring supplier performance to prevent future supply concentration risks.
 - Standardize operational processes across all warehouses and introduce performance benchmarks to further improve efficiency and scalability.
@@ -556,24 +569,40 @@ Business Recommendation: Standardize best practices across warehouses to improve
 
 ## Key Insights
 
-- Transportation costs have increased from 2022, indicating rising logistics expenses and potential inefficiencies, and it also has impact on the revenue. 
-- A few regions (North and West) contribute the majority of transportation costs, aligning with high sales activity.
-- Supplier B and A incur the highest logistics costs, making them the most expensive suppliers to operate with. 
-- Transportation costs are relatively evenly distributed across warehouses, with slight variations indicating minor efficiency differences.
-- Certain product categories (e.g., Electronics) drive higher transportation costs due to higher volume or delivery requirements. 
+- Total transportation cost reached $9.27M, indicating a significant cost component impacting overall profitability.
+- Transportation costs have increased since 2022, highlighting rising logistics expenses and potential inefficiencies.
+- North and West regions contribute the majority of logistics costs, aligning with high demand but increasing cost pressure.
+- Supplier B and A incur the highest logistics costs, making them the most expensive suppliers operationally. 
+- Transportation costs are relatively evenly distributed across warehouses, with minor efficiency variations.
+- Electronics category drives higher logistics costs due to higher volume and delivery requirements. 
 
 
 
 ## Business Recommendations
 
-- Implement cost control strategies such as route optimization and bulk shipping to manage rising transportation expenses.
+- Implement cost optimization strategies such as route optimization and bulk shipping to reduce logistics expenses.
 - Optimize regional distribution networks by relocating inventory closer to demand centers to reduce shipping distance and cost.
 - Re-negotiate contracts or evaluate alternative suppliers to reduce high logistics costs associated with Supplier B and A.
-- Identify and replicate best practices from more efficient warehouses to minimize cost variations and improve overall logistics efficiency.
+- Standardize efficient logistics practices across warehouses to reduce cost variations.
 - Optimize packaging, shipping methods, and inventory placement for high-cost categories to reduce transportation expenses.
 
+---
 
-  
+## Business Impact
+
+- Identified 30% order drop-off, impacting customer experience and revenue realization
+- Highlighted low inventory utilization (34%), indicating inefficient capital usage
+- Revealed high logistics cost ($9.27M), affecting overall profitability
+- Identified supplier-level inefficiencies (lead time + backorders), impacting delivery performance
+
+---
+
+## Conclusion
+
+The analysis reveals that while the supply chain generates strong revenue ($71.24M), operational inefficiencies across order fulfillment, inventory utilization, and logistics cost significantly impact performance.
+
+Addressing these gaps through better demand forecasting, supplier optimization, and logistics planning can improve efficiency, reduce costs, and enhance overall supply chain effectiveness.
+
 ---
 
 ## Tools Used
@@ -672,17 +701,6 @@ Complete project documentation including business context, SQL insights, dashboa
 4. Open Power BI file to explore dashboards
 5. Interact with filters to analyze different scenarios
 
-
----
-
-
-## Conclusion
-
-The analysis highlights key inefficiencies in supply chain operations, including supplier delays, underutilized warehouse capacity, and high transportation costs in certain regions.
-
-By addressing these issues, businesses can improve operational efficiency, reduce costs, and enhance customer satisfaction.
-
-This project demonstrates how data-driven decision-making can significantly optimize supply chain performance.
 
 
 ---
