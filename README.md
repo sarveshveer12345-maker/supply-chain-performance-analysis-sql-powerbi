@@ -463,7 +463,7 @@ Additional SQL queries for warehouse performance, cost efficiency, and inventory
 
 ## Business Recommendations
 
-- Optimize inventory allocation across warehouses to improve utilization and reduce idle capacity, lowering storage and operational costs.
+- Reallocate inventory based on regional demand patterns to improve utilization from 34% and reduce excess holding costs.
 - Rebalance stock from high-inventory regions to lower-demand areas to improve distribution efficiency.
 - Implement demand-driven inventory planning and forecasting models to avoid excess stock and improve overall inventory efficiency.
 - Maintain balanced supplier distribution while continuously monitoring supplier performance to prevent future supply concentration risks.
@@ -536,6 +536,15 @@ Additional SQL queries for warehouse performance, cost efficiency, and inventory
 - Highlighted low inventory utilization (34%), indicating inefficient capital allocation and excess storage cost.
 - Revealed high logistics cost ($9.27M), reducing overall profitability.
 - Identified supplier inefficiencies (lead time 15.7 days, high backorders), impacting delivery performance and reliability.
+
+---
+
+## Priority Actions
+
+- Improve order fulfillment (30% impact on revenue + Customer experience)
+- Optimize inventory utilization (34% → cost leakage)
+- Reduce logistics cost ($9.27M impact on profitability)
+- Address supplier inefficiencies (lead time + backorders)
 
 ---
 
