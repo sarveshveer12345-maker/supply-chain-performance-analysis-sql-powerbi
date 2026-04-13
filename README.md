@@ -180,7 +180,7 @@ Business Question: Which product categories drive most sales?
 
 - **Revenue : 19207238.505421996**
 
-Key Insight: Revenue is relatively distributed across categories, with **Electronics** generated $19.2M in revenue, slightly outperforming other categories, indicating it as a key revenue driver within the product portfolio.
+Key Insight: Electronics generated $19.2M in revenue, making it the leading category and a key driver of overall business performance.
 
 Business Recommendation: Promote high-performing categories and optimize inventory for low-performing ones.
 
@@ -282,6 +282,10 @@ Key Insight: **North** region incurred $2.49M in transportation costs, indicatin
 Business Recommendation: Optimize logistics routes and distribution strategies to reduce transportation costs.
 
 
+**SQL Analysis Note**
+
+Additional SQL queries for warehouse performance, cost efficiency, and inventory trends are available in the /sql folder.
+
 ---
 
 ## Business Performance Overview
@@ -376,7 +380,7 @@ Business Recommendation: Optimize logistics routes and distribution strategies t
 
 - Which suppliers contribute the most to revenue?
 - Which suppliers have the maximum Transportation cost? 
-- What facor is causing delays or inefficiencies? 
+- What factor is causing delays or inefficiencies? 
 - How accurate are supplier deliveries? 
 - Which suppliers generate the most backorders?
 - Which suppliers contribute the most to successfully fulfilled orders?
@@ -392,7 +396,7 @@ Business Recommendation: Optimize logistics routes and distribution strategies t
 - Order accuracy stands at 91.33%, indicating strong performance but still leaving room for improvement in operational precision.
 - Supplier D accounts for 31.9% of backorders, highlighting supply-demand mismatch and reliability concerns.
 - Supplier D also contributes 27.21% of fulfilled orders, indicating high operational dependency despite inefficiencies.
-- Supplier A maintain the highest order accuracy but certain suppliers show lower accuracy levels, indicating quality or process gaps in order handling
+- Supplier A maintains the highest order accuracy but certain suppliers show lower accuracy levels, indicating quality or process gaps in order handling
 
 
 
@@ -453,7 +457,7 @@ Business Recommendation: Optimize logistics routes and distribution strategies t
 - North and West regions hold the highest inventory levels, indicating potential imbalance in stock distribution.
 - Low utilization suggests inefficient inventory allocation and excess idle capacity.
 - Inventory distribution across suppliers is relatively balanced, reducing supplier dependency risk. 
-- Warehouses performance is consistent across all locations, but lacks optimization for maximum efficiency.
+- Warehouse performance is consistent across all locations, but lacks optimization for maximum efficiency.
 
 
 
