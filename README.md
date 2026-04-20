@@ -609,6 +609,7 @@ Addressing these gaps through better demand forecasting, supplier optimization, 
 
 ## Project Structure
 
+```
 supply-chain-performance-analysis-sql-powerbi/
 │
 ├── dataset/
@@ -628,7 +629,7 @@ supply-chain-performance-analysis-sql-powerbi/
 │   └── logistics_analysis.png
 │
 └── README.md
-
+```
 
 ---
 
